@@ -381,6 +381,73 @@ section {
   line-height: 1.8;
 }
 
+.services .box-container .box:hover{
+  background: var(--black);
+}
+
+.services .box-container .box:hover h3{
+  color: #fff;
+}
+
+.services .box-container .box:hover p{
+  color: #eee;
+}
+
+.featured .featured-slider{
+  padding: 1rem;
+  padding-bottom: 4rem;
+}
+
+.featured .featured-slider .box{
+  text-align: center;
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  border-radius: .5rem;
+}
+
+.featured .featured-slider .box img{
+ 
+  width: 100%;
+  padding: 2rem;
+}
+
+.featured .featured-slider .box:hover img{
+  transform: scale(.9);
+}
+
+.featured .featured-slider .box h3{
+  font-size: 2.2rem;
+  color: var(--black);
+}
+
+.featured .featured-slider .box h3{
+  font-size: 2.2rem;
+  color: var(--black);
+}
+
+.featured .featured-slider .box .stars{
+ padding: 1rem 0;
+}
+
+
+.featured .featured-slider .box .stars i{
+  font-size: 1.7rem;
+color: var(--yellow);
+ }
+
+ .featured .featured-slider .box .price{
+  font-size: 2.5rem;
+  color: var(--black);
+ }
+
+
+
+
+
+
+
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
