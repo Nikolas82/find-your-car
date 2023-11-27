@@ -1,5 +1,3 @@
-
-
 let menu = document.querySelector("#menu-btn");
 let navbar = document.querySelector(".navbar");
 
@@ -78,7 +76,6 @@ var swiper = new Swiper(".vehicles-slider", {
     },
   },
 });
-
 
 var swiper = new Swiper(".featured-slider", {
   slidesPerView: 1,
